@@ -24,6 +24,10 @@ const res1=await client.messages
 
 res.status(200).send({status:res1.status})
 })
+app.get('/hello',async(req,res)=>{
+
+res.status(200).send({status:"all good"})
+})
 
 
 
